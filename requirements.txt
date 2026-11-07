@@ -1,0 +1,9 @@
+# Pinned runtime dependencies (verified working with Python 3.10+).
+# Install with:  pip install -r requirements.txt
+numpy==1.26.4
+scipy==1.11.4
+matplotlib==3.8.4
+Pillow==10.2.0
+
+# Dev / test dependency (also in pyproject.toml [project.optional-dependencies] dev).
+pytest==9.2.0
